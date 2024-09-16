@@ -109,10 +109,8 @@ The prod.tfvars file contains the variable values for the production environment
 1. Initialize Terraform
 
 Run the following command to initialize Terraform in the directory containing your Terraform configuration files:
-
-	```bash
+	
 	terraform init
-	```
 	
 2. Create and Manage Workspaces
 
@@ -182,26 +180,18 @@ To clean up your Terraform infrastructure, follow these steps:
 
 Switch to the workspace where you want to destroy resources. For example, to clean up the dev environment, run:
 
-	```bash
 	terraform workspace select dev
-	```
 	
 Destroy the resources in the selected workspace:
 
-	```bash
 	terraform destroy -auto-approve
-	```
-
+	
 Switch to the prod workspace to clean up the production environment:
 
-	```bash
 	terraform workspace select prod
-	```
 
 Destroy the resources in the prod workspace:
 
-	```bash
 	terraform destroy -auto-approve
-	```
 
 By following these steps, you will safely remove all resources from both environments.
