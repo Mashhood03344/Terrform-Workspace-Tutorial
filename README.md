@@ -2,15 +2,15 @@
 
 ## Table of Content
 
-1. [Overview](Overview)
-2. [What are Terraform Workspaces?](what-are-terraform-workspaces)
-3. [Example Scenario](example-scenerio)
-4. [Prerequisites](prerequisites)
-5. [Terraform Files](terraform-files)
-6. [Steps to Perform the Tutorial](steps-to-perform-the-tutorial)
-7. [Understanding Workspaces](understanding-workspaces)
-8. [Conclusion](conclusion)
-9. [Clean Up](clean-up)
+1. [Overview](#Overview)
+2. [What are Terraform Workspaces?](#what-are-terraform-workspaces)
+3. [Example Scenario](#example-scenerio)
+4. [Prerequisites](#prerequisites)
+5. [Terraform Files](#terraform-files)
+6. [Steps to Perform the Tutorial](#steps-to-perform-the-tutorial)
+7. [Understanding Workspaces](#understanding-workspaces)
+8. [Conclusion](#conclusion)
+9. [Clean Up](#clean-up)
 
 
 
